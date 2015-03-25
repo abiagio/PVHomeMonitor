@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/usr/share/java/RXTXcomm.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/usr/lib/jni"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/opt/pi4j/lib/pi4j-core.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/opt/pi4j/bin"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/opt/pi4j/lib/pi4j-device.jar"/>
+	<classpathentry kind="lib" path="/opt/pi4j/lib/pi4j-gpio-extension.jar"/>
+	<classpathentry kind="lib" path="/opt/pi4j/lib/pi4j-service.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
